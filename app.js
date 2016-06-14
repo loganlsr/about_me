@@ -40,5 +40,5 @@ if (answer5 === 'yes' || answer5 === 'y') {
   alert('Indeed! If you are looking for suggestions, he recommends Sword Art Online or Clannad!');
 }
 else {
-  alert('Wrong! When he\'s not playing video games or doing his homework, he is watching a bunch of anime!')
+  alert('Wrong! When he\'s not playing video games or doing his homework, he is watching a bunch of anime!');
 }
