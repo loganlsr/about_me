@@ -11,3 +11,9 @@ h1 {
 h2 {
   color: green;
 }
+
+div {
+  border-style: dotted;
+  border-width: medium;
+  border-color: red;
+}
