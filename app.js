@@ -55,10 +55,17 @@ while (logan != 24) {
   else {
     alert('That\'s generous of you to say, but no, he is older!');
   }
-
 }
 
-var question7 = [Arizona, California];
-for (var i = 0; i < question7; i++) {
-  var answer = prompt();
+var states = ['Arizona', 'California'];
+var answer7 = prompt('Can you name a state I\'ve lived in besides Washington?');
+while (correctAns = 0 & tries <= 6) {
+  for (var i = 0; i < states.length; i++) {
+    if (answer7 === 'Arizona' || answer7 === 'California') {
+      alert('You got it! Logan has lived in both Arizona and California in addition to Washington!');
+    }
+    else {
+      alert('Nope! I\'m sure that\'s a lovely state, but Logan has not lived there!');
+    }
+  }
 }
