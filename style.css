@@ -1,11 +1,11 @@
 * {
   color: gray;
+  background-color: black;
 }
 
 h1 {
   color: blue;
-  display: block;
-  width: 320px;
+  background-color: orange;
 }
 
 h2 {
