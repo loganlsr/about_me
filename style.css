@@ -1,7 +1,13 @@
 * {
-  color: green;
+  color: gray;
 }
 
 h1 {
-  color: gray;
+  color: blue;
+  display: block;
+  width: 320px;
+}
+
+h2 {
+  color: green;
 }
