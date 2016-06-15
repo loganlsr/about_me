@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 var userName = prompt('Greetings! What is your name?');
 alert('Welcome ' + userName + ', glad you\'re here!');
 
@@ -41,4 +41,24 @@ if (answer5 === 'yes' || answer5 === 'y') {
 }
 else {
   alert('Wrong! When he\'s not playing video games or doing his homework, he is watching a bunch of anime!');
+}
+*/
+var logan = 0;
+while (logan != 24) {
+  var logan = parseInt(prompt('How old is Logan?'));
+  if (logan === 24) {
+    alert('Correct! The kids these days would probably call him old...');
+  }
+  else if (logan > 24) {
+    alert('Yikes! Does he really look that old! Believe it or not, he is actually younger!');
+  }
+  else {
+    alert('That\'s generous of you to say, but no, he is older!');
+  }
+
+}
+
+var question7 = [Arizona, California];
+for (var i = 0; i < question7; i++) {
+  var answer = prompt();
 }
