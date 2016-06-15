@@ -1,6 +1,7 @@
 * {
   color: gray;
   background-color: black;
+
 }
 
 h1 {
@@ -12,8 +13,13 @@ h2 {
   color: green;
 }
 
-div {
-  border-style: dotted;
+section {
+  border-style: double;
   border-width: medium;
   border-color: red;
+  border-radius: 50px;
+}
+
+img {
+  
 }
