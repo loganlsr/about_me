@@ -64,7 +64,7 @@ while(logan != 24) {
   } else if(logan < 24){
     alert('That\'s generous of you to say, but no, he is older!');
   } else {
-    alert('Ah. We have a jokester here I see! Try a numerical number, that might work better!');
+    alert('Ah. We have a jokester here I see! Try a whole numerical number, that might work better!');
   }
 }
 
