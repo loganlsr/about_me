@@ -81,15 +81,16 @@ function question6() {
 }
 
 function question7() {
-  var states = ['Arizona', 'California'];
+  var states = ['arizona', 'california'];
   var tries = 0;
   while(tries < 6) {
     var answer7 = prompt('Can you name a state Logan has lived in besides Washington?').toLowerCase();
-    for(var i = 0; i < states.length - 1; i++) {
-      if(answer7 === 'arizona' || answer7 === 'california') {
+    for(var i = 0; i < states.length; i++) {
+      if(answer7 === states[i]) {
         alert('You got it! Logan has lived in both Arizona and California in addition to Washington!');
         correct += 1;
         tries += 6;
+        break;
       } else {
         alert('Nope! I\'m sure that\'s a lovely state, but Logan has not lived there! Try again!');
         tries += 1;
