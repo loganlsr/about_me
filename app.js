@@ -8,17 +8,23 @@ if (answer1 === 'yes' || answer1 === 'y') {
   alert('Correct! At least he does on the days he doesn\'t oversleep!');
   correct += 1;
 }
-else {
+else if (answer1 === 'no' || answer1 === 'n') {
   alert('Wrong! Though, I suppose he does drive on the days he oversleeps and misses the bus.');
+}
+else {
+  alert('It\'s a yes or no question! Come on!');
 }
 
 var answer2 = prompt('Is Logan\'s favorite color brown?').toLowerCase();
 if (answer2 === 'yes' || answer2 === 'y') {
   alert('Wrong! That\'s like the worst color. Green is actually his favorite color!');
 }
-else {
+else if (answer1 === 'no' || answer1 === 'n') {
   alert('Correct! It\'s green! Who likes the color brown?');
   correct += 1;
+}
+else {
+  alert('It\'s a yes or no question! Come on!');
 }
 
 var answer3 = prompt('Does Logan like to play video games in his free time?').toLowerCase();
@@ -26,17 +32,23 @@ if (answer3 === 'yes' || answer3 === 'y') {
   alert('Correct! He\'s particularly fond of Overwatch right now');
   correct += 1;
 }
-else {
+else if (answer1 === 'no' || answer1 === 'n') {
   alert('Incorrect! He has been gaming for forever and he is particularly fond of Overwatch right now!');
+}
+else {
+  alert('It\'s a yes or no question! Come on!');
 }
 
 var answer4 = prompt('Is Logan\'s favorite food pizza?').toLowerCase();
 if (answer4 === 'yes' || answer4 === 'y') {
   alert('Nope! His favorite food is actually chinese food. And if you want to get specific, he loves General Tsao\'s Chicken!');
 }
-else {
+else if (answer1 === 'no' || answer1 === 'n') {
   alert('Pizza is really good, but you are right. It is not his favorite food, that would be chinese food, but it is a close second!');
   correct += 1;
+}
+else {
+  alert('It\'s a yes or no question! Come on!');
 }
 
 var answer5 = prompt('Is one of Logan\'s favorite hobbies watching anime?').toLowerCase();
@@ -44,8 +56,11 @@ if (answer5 === 'yes' || answer5 === 'y') {
   alert('Indeed! If you are looking for suggestions, he recommends Sword Art Online or Clannad!');
   correct += 1;
 }
-else {
+else if (answer1 === 'no' || answer1 === 'n') {
   alert('Wrong! When he\'s not playing video games or doing his homework, he is watching a bunch of anime!');
+}
+else {
+  alert('It\'s a yes or no question! Come on!');
 }
 
 var logan = 0;
@@ -58,8 +73,11 @@ while (logan != 24) {
   else if (logan > 24) {
     alert('Yikes! Does he really look that old! Believe it or not, he is actually younger!');
   }
-  else {
+  else if (logan < 24){
     alert('That\'s generous of you to say, but no, he is older!');
+  }
+  else {
+    alert('Ah. We have a jokester here I see! Try a numerical number, that might work better!');
   }
 }
 
