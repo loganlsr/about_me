@@ -67,15 +67,15 @@ function question6() {
   var logan = 0;
   while(logan != 24) {
     var logan = parseInt(prompt('How old is Logan?'));
-    if(logan === 24) {
+    if (isNaN(logan)){
+      alert('Ah. We have a jokester here I see! Try a whole numerical number, that might work better!');
+    } else if(logan === 24) {
       alert('Correct! The kids these days would probably call him old...');
       correct += 1;
     } else if(logan > 24) {
       alert('Yikes! Does he really look that old! Believe it or not, he is actually younger!');
     } else if(logan < 24){
       alert('That\'s generous of you to say, but no, he is older!');
-    } else {
-      alert('Ah. We have a jokester here I see! Try a whole numerical number, that might work better!');
     }
   }
 }
