@@ -1,7 +1,7 @@
 'use strict';
-var correct = 0;
-var userName = prompt('Greetings! What is your name?');
 setTimeout(function(){
+  var correct = 0;
+  var userName = prompt('Greetings! What is your name?');
   alert('Welcome ' + userName + ', glad you\'re here!');
 
   function question1() {
@@ -68,7 +68,7 @@ setTimeout(function(){
     var tries = 0;
     while(logan != 24 && tries < 4) {
       var logan = 0;
-      var logan = parseInt(prompt('How old is Logan?'));
+      var answer6 = parseInt(prompt('How old is Logan?'));
       if (isNaN(logan)){
         alert('Ah. We have a jokester here I see! Try a whole numerical number, that might work better!');
         tries += 1;
@@ -81,8 +81,6 @@ setTimeout(function(){
       } else if(logan < 24){
         alert('That\'s generous of you to say, but no, he is older!');
         tries += 1;
-      } else if(tries > 4) {
-        alert('Sorry! That\'s as many tries as you get for this question!');
       }
     }
   }
