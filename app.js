@@ -66,15 +66,16 @@ setTimeout(function(){
 
   function question6() {
     var tries = 0;
-    while(logan != 24 && tries < 4) {
+    while(tries < 4) {
       var logan = 0;
       var answer6 = parseInt(prompt('How old is Logan?'));
-      if (isNaN(logan)){
+      if (isNaN(answer6)){
         alert('Ah. We have a jokester here I see! Try a whole numerical number, that might work better!');
         tries += 1;
       } else if(logan === 24) {
         alert('Correct! The kids these days would probably call him old...');
         correct += 1;
+        tries += 4;
       } else if(logan > 24) {
         alert('Yikes! Does he really look that old! Believe it or not, he is actually younger!');
         tries += 1;
