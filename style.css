@@ -15,6 +15,13 @@
   margin-top: 140px;
 }
 
+body {
+    background-image: url("http://www.walldevil.com/wallpapers/w08/neon-genesis-evangelion-asuka-langley-soryu-simple-background-colorful-artwork-anime.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
 div {
   width: 30%;
   background-color: rgba(122, 122, 122, 0.5);
