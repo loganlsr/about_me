@@ -95,12 +95,13 @@ setTimeout(function(){
         if(answer7 === states[i]) {
           alert('You got it! Logan has lived in both Arizona and California in addition to Washington!');
           correct += 1;
-          tries += 6;
+          tries = 6;
           break;
-        } else {
-          alert('Nope! I\'m sure that\'s a lovely state, but Logan has not lived there! Try again!');
-          tries += 1;
         }
+      }
+      if (tries < 6) {
+        alert('Nope! I\'m sure that\'s a lovely state, but Logan has not lived there! Try again!');
+        tries += 1;
       }
     }
   }
