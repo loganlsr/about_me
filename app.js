@@ -67,7 +67,6 @@ setTimeout(function(){
   function question6() {
     var tries = 0;
     while(tries < 4) {
-      var logan = 0;
       var answer6 = parseInt(prompt('How old is Logan?'));
       if (isNaN(answer6)){
         alert('Ah. We have a jokester here I see! Try a whole numerical number, that might work better!');
